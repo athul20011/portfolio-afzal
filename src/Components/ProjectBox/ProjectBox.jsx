@@ -32,7 +32,7 @@ const ProjectBox = ({
         </div>
         <div className="button-and-icons-container">
           <a href={SiteProject} target="_blank" rel="noreferrer">
-            <button className="bnt-project">Ver projeto</button>
+            <button className="bnt-project">View Project</button>
           </a>
           {GithubProject && (
           <a href={GithubProject} target="_blank" rel="noreferrer">

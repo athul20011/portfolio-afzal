@@ -45,13 +45,13 @@ const Home = () => {
             <div>
                 <ScrollRevealComponent />
                 <header style={{ background: theme.NavBackground, color: theme.text }}>
-                    <a href="#" className="logo" style={{ color: theme.text }}>Lilian<span>.dev</span></a>
+                    <a href="#" className="logo" style={{ color: theme.text }}>Portfólio<span></span></a>
                     <ul className={`navbar ${menuOpen ? 'open' : ''}`} style={{ background: theme.NavBackground, color: theme.text }}>
                         <li><a href="#" className="active">Home</a></li>
-                        <li><a href="#about-me" style={{ color: theme.text }}>Sobre mim</a></li>
+                        <li><a href="#about-me" style={{ color: theme.text }}>About</a></li>
                         <li><a href="#skills" style={{ color: theme.text }}>Skills</a></li>
-                        <li><a href="#timeline" style={{ color: theme.text }}>Educação</a></li>
-                        <li><a href="#portfolio" style={{ color: theme.text }}>Portfólio</a></li>
+                        <li><a href="#timeline" style={{ color: theme.text }}>Education</a></li>
+                        <li><a href="#portfolio" style={{ color: theme.text }}>Porjects</a></li>
                         <li><a href="#container-contact" style={{ color: theme.text }}>Contato</a></li>
                     </ul>
                     <div className="menu-btn" onClick={toggleMenu}>
@@ -63,97 +63,106 @@ const Home = () => {
                 <div className="container-emphasis">
                     <section className="home">
                         <div className="home-text">
-                            <span>Software Developer & UI/UX designer</span>
-                            <h1>Lilian Carvalho</h1>
-                            <p style={{ color: theme.text }}>Olá, seja bem vindo(a)! Prepadado(a) para uma experiência arrebatadora? Prazer, sou desenvolvedora Full-stack Jr. Fique a vontade para conhecer melhor o meu trabalho. </p>
+                            <span>M E A R N  STACK DEVELOPER</span>
+                            <h1>ATHUL KR</h1>
+                            <p style={{ color: theme.text }}>Coding is the art of turning ideas into interactive experiences; full-stack developers are the artists </p>
                             <div className="main-bnt">
-                                <a href="Lilian-Carvalho-Santos-Ribeiro.pdf" className="bnt" download>Baixar CV</a>
-                                <a href="#portfolio" className="bnt two">Meus projetos</a>
+                                <a href="ATHUL1res.pdf" className="bnt" download>Download CV</a>
+                                <a href="#portfolio" className="bnt two">Education</a>
                             </div>
                         </div>
                         <div className="share">
-                            <p style={{ color: theme.text }}>Minhas redes:</p>
                             <div className="social" id="about-me">
-                                <a href="https://www.linkedin.com/in/lilian-carvalho25/" target="_blank" rel="noreferrer"><img src="icon-linkedin.svg" alt="" width="30px"></img></a>
-                                <a href="https://github.com/Lilian-Carvalho25" target="_blank" rel="noreferrer"><img src="icon-github.svg" alt="" width="30px"></img></a>
-                                <a href="https://linktr.ee/lilian.csribeiro" target="_blank" rel="noreferrer"><img src="icon-linktree.png" alt="" width="31px"></img></a>
+                                <a href="https://www.linkedin.com/in/athul-kr-324426277?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BnQS9lTwoSYWwr%2B0nM%2BrtiA%3D%3D " target="_blank" rel="noreferrer"><img src="icon-linkedin.svg" alt="" width="30px"></img></a>
+                                <a href="https://github.com/athul20011 " target="_blank" rel="noreferrer"><img src="icon-github.svg" alt="" width="30px"></img></a>
+                                <a href=" " target="_blank" rel="noreferrer"><img src="icon-linktree.png" alt="" width="31px"></img></a>
                             </div>
                         </div>
                     </section>
                     <div className="home-img">
-                        <img src="foto-destaque.png" alt=""></img>
+                        <img src="port1.png" alt=""></img>
                     </div>
                 </div>
                 <section className="container-about-me">
-                    <img src="sobre-mim.png" alt="" className="about-mee"></img>
+                    <img src="port3.png" alt="" className="about-mee"></img>
                     <article className="about-me">
-                        <h4>Quem sou eu?</h4>
-                        <h2>Lilian Carvalho, desenvolvedora Full-stack Jr.</h2>
-                        <p id="skills">A tecnologia me encanta, e desperta os meus melhores sentimentos. Minha trajetória começou a um pouco mais de um ano, e me apaixonei completamente por esse universo. Fiz alguns cursos voltados para tecnologia, e hoje curso ADS na faculdade IMPACTA. A empatia, proatividade e a atenção aos detalhes são algumas das características que me destacam.</p>
+                        <h4>About Me</h4>
+                        <h2>I Am MEARN Stack developer</h2>
+                        <p id="skills">As a beginner in the field of Information
+Technology, Istrive to associate myself
+with an organization where I can utilize
+my skillsin the best possible manner,
+which further gives me an opportunity
+to grow in my career journey while
+contributing to the development of the
+organization.</p>
                     </article>
                 </section>
                 <section className="container-skills">
-                    <h2>Minhas Skills</h2>
+                    <h2>Technical Skills</h2>
                     <div className="skills">
                         <article className="box-skills" style={{ background: theme.skillsBackground }}>
                             <div className="description">
                                 <img src="icon-front.svg" alt=""></img>
                                 <h3>Front-end</h3>
-                                <p>HTML, CSS, Javascript, Bootstrap, React e TypeScript.</p>
+                                <p>HTML, CSS, Bootstrap, Javascript, Reactjs, Angular.</p>
                             </div>
                         </article>
                         <article className="box-skills" style={{ background: theme.skillsBackground }}>
                             <div className="description">
                                 <img src="icon-back-end.svg" alt=""></img>
                                 <h3>Back-end</h3>
-                                <p>PHP e Java.</p>
+                                <p>Nodejs, Expressjs, MongoDB</p>
                             </div>
                         </article>
                         <article className="box-skills" style={{ background: theme.skillsBackground }}>
                             <div className="description">
-                                <img src="icon-banco-de-dados.svg" alt=""></img>
-                                <h3>Banco de dados</h3>
-                                <p id="portfolio">SQL.</p>
+                                <img src="" alt=""></img>
+                                <h3>basic skill</h3>
+                                <p id="portfolio">Cirtical Thinking</p>
+                                <p id="portfolio">Communication skill</p>
+
                             </div>
                         </article>
                     </div>
                 </section>
                 <section className="timeline" id="timeline">
-                    <h4>Saiba mais sobre minha</h4>
-                    <h2>Educação</h2>
+                    <h2>Education</h2>
                     <article className="container-timeline">
                         <div className="box-timeline">
                             <div className="education">
                                 <div className="experiences">
                                     <i className="icons-timeline">📚</i>
                                     <div className="timeline-information">
-                                        <span>2024 - 2026</span>
-                                        <h3 style={{ color: theme.text }}>Análise e desenvolvimento de sistemas</h3>
-                                        <p style={{ color: theme.text }}>Graduação na faculdade IMPACTA que forma profissionais aptos a projetar, analisar, desenvolver e implementar sistemas de informação.</p>
+                                        <span>2018</span>
+                                        <h3 style={{ color: theme.text }}>SSLC</h3>
+                                        <p style={{ color: theme.text }}>MNKM HSS Chittlamcherry, Palakkad, kerala</p>
                                     </div>
                                 </div>
                                 <div className="experiences">
                                     <i className="icons-timeline">📚</i>
                                     <div className="timeline-information">
-                                        <span>2023</span>
-                                        <h3 style={{ color: theme.text }}>Desevolvedor Web Java</h3>
-                                        <p style={{ color: theme.text }}>O Proa é um curso focado em empregabilidade, onde o jovem é preparado nos núcleos Técnico e Comportamental. O núcleo técnico desenvolve as competências técnicas do aluno em desenvolvimento Web Full Stack por meio de trabalho em grupo, vivências corporativas, projetos e atividades.</p>
+                                        <span>2018-2020</span>
+                                        <h3 style={{ color: theme.text }}>Pluse Two</h3>
+                                        <h4>Computer science</h4>
+                                        <p style={{ color: theme.text }}>MNKM HSS Chittlamcherry, Palakkad, Kerala</p>
                                     </div>
                                 </div>
                                 <div className="experiences">
                                     <i className="icons-timeline">📚</i>
                                     <div className="timeline-information">
-                                        <span>2023</span>
-                                        <h3 style={{ color: theme.text }}>Fundamentos em AWS</h3>
-                                        <p style={{ color: theme.text }}>Abrangeu uma variedade de tópicos projetados para fornecer uma compreensão básica dos serviços e conceitos essenciais da AWS.</p>
+                                        <span>2020-2023</span>
+                                        <h3 style={{ color: theme.text }}>Graduation</h3>
+                                        <h4>Bsc Computer Science</h4>
+                                        <p style={{ color: theme.text }}>Thunchezhuthan college, Elevanchery, Palakkad, Kerala</p>
                                     </div>
                                 </div>
                                 <div className="experiences">
                                     <i className="icons-timeline">📚</i>
                                     <div className="timeline-information">
-                                        <span>2023</span>
-                                        <h3 style={{ color: theme.text }}>Desenvolvedor Web</h3>
-                                        <p style={{ color: theme.text }}>Programador web é um curso do Senac com o intuito de formar programadores com a capacidadade e a habilidade de estruturar em Front-end e desenvolver em Back-end, publicando aplicações web.Aqui eu tive o meu primeiro contato com programação e design, e aprendi muito.</p>
+                                        <span>2023-2024</span>
+                                        <h3 style={{ color: theme.text }}>Mearn stack developement(internship)</h3>
+                                        <p style={{ color: theme.text }}>Luminar Technolab, Kochi, Kerala</p>
                                     </div>
                                 </div>
                             </div>
@@ -161,43 +170,44 @@ const Home = () => {
                     </article>
                 </section>
                 <section className="container-portfolio" id="portfolio">
-                    <h4>Hora de navegar em</h4>
-                    <h2>Meus projetos</h2>
+                    <h2>projects</h2>
                     <div className="portfolio">
-                        <ProjectBox ImgProject={"projeto-nutriacess.png"} NameProject={"NutriAcess"} DescriptionProject={"A Nutriacess é uma plataforma desenvolvida com o objetivo de democratizar o acesso a consultas nutricionais de forma acessível."} SkillsProject1={"Figma"} SkillsProject2={"React"} SkillsProject3={"Typescript"} SkillsProject4={"MySQL"} SkillsProject5={"Node"} SiteProject={"http://nutriacess.com.br/"} GithubProject={"https://github.com/Lilian-Carvalho25/front-nutriacess"} GithubProject2={"https://github.com/NutriAcess/NutriAcess_Back-end"} FigmaProject={"https://www.figma.com/file/FNNHvyBxXBNVziRP1AKOd8/Nutriacess%2Fdesktop?type=design&node-id=0%3A1&mode=design&t=pyNbpWf6XgsbzeO5-1"} />
-                        <ProjectBox ImgProject={"projeto-brasa-divina.png"} NameProject={"Brasa divina"} DescriptionProject={"Brasa divina é um exemplo de site para uma pizzaria real. Nele, o usuário tem a opção de selecionar opções prontas, ou montar sua própria pizza."} SkillsProject1={"Figma"} SkillsProject2={"HTML/CSS"} SkillsProject3={"JS"} SkillsProject4={"MySQL"} SkillsProject5={"PHP"} SiteProject={"http://brasa-divina.x10.mx/index.php"} GithubProject={"https://github.com/AfroGlow/PlataformaAfroGlow?tab=readme-ov-file"} GithubProject2={null} FigmaProject={"https://www.figma.com/file/cTKmShxHOqdVNfJ2HXuXdy/Brasa-Divina?type=design&node-id=0%3A1&mode=design&t=GIjG3NN5jcoHcEhc-1"} />
-                        <ProjectBox ImgProject={"projeto-afroglow.png"} NameProject={"AfroGlow"} DescriptionProject={"A AfroGlow visa fortalecer a autoestima de crianças com cabelos afro, proporcionando autoestima e um forte sentimento de pertencimento."} SkillsProject1={"Figma"} SkillsProject2={"React/CSS"} SkillsProject3={"Bootstrap"} SkillsProject4={"Java/Spring"} SkillsProject5={"SQL"} SiteProject={"https://www.afroglow.com.br/"} GithubProject={"https://github.com/AfroGlow/PlataformaAfroGlow?tab=readme-ov-file"} GithubProject2={"https://github.com/AfroGlow/BackendAfroGlow"} FigmaProject={"https://www.figma.com/file/tmMpKY6U0T90iErD8FBUMQ/AfroGlow?type=design&node-id=111%3A3&mode=design&t=f3EANUKr8BZomecZ-1"} />
+
+                        <ProjectBox ImgProject={"rest.jpg"} NameProject={"Restaurent"} DescriptionProject={"A Nutriacess é uma plataforma desenvolvida com o objetivo de democratizar o acesso a consultas nutricionais de forma acessível."} SkillsProject2={"Html"} SkillsProject3={"css"} SkillsProject4={"Bootstrap"} SiteProject={""} GithubProject={""} GithubProject2={""} />
+
+                        <ProjectBox ImgProject={"trv.jpg"} NameProject={"Travel website"} DescriptionProject={"Brasa divina é um exemplo de site para uma pizzaria real. Nele, o usuário tem a opção de selecionar opções prontas, ou montar sua própria pizza."} SkillsProject1={"Html"} SkillsProject2={"CSS"} SkillsProject3={"Bootstrap"} SkillsProject4={"javascript"}  SiteProject={""} GithubProject={""} GithubProject2={null}  />
+
+                        <ProjectBox ImgProject={"netflix.png"} NameProject={"netflix clone"} DescriptionProject={"A AfroGlow visa fortalecer a autoestima de crianças com cabelos afro, proporcionando autoestima e um forte sentimento de pertencimento."} SkillsProject1={"html"} SkillsProject2={"CSS"} SkillsProject3={"Bootstrap"} SkillsProject4={"reactjs"} SiteProject={""} GithubProject={""} GithubProject2={""}  />
                     </div>
                     <article className="all-projects">
-                        <Link to="/all-projects" className="bnt-all">Todos os projetos <img src="arrow-right.svg" alt="" width="10px"></img></Link>
+                        <Link to="/all-projects" className="bnt-all">All Projects <img src="arrow-right.svg" alt="" width="10px"></img></Link>
                     </article>
                 </section>
                 <section className="container-contact" id="container-contact">
-                    <h4>Ficou interessado(a)?</h4>
-                    <h2>Entre em contato</h2>
+                    <h2>Contact Details</h2>
                     <div className="container-secondary-contact">
                         <article>
                             <form ref={ref} onSubmit={handleSubmit} className="forms-contact">
-                                <input type="text" placeholder="Nome" name="name"></input>
+                                <input type="text" placeholder="Name" name="name"></input>
                                 <input type="email" placeholder="Email" name="email"></input>
-                                <textarea placeholder="Mensagem"name="message" rows={7}></textarea>
-                                <button type="submit">ENVIAR</button>
+                                <textarea placeholder="Message"name="message" rows={7}></textarea>
+                                <button type="submit">Sent</button>
                                 {success &&
                                 "Mensagem enviada com sucesso!"}
                             </form>
                         </article>
                         <article>
-                        <img src="foto-final.png" alt="lilian versão avatar"></img>
+                        <img src="https://www.freeiconspng.com/uploads/contact-icon-png-0.png" alt="lilian versão avatar"></img>
                         </article>
                     </div>
                 </section>
                 <div className="fixed-icon" onClick={toggleTheme} style={{ background: theme.NavBackground }}><img src="icon-moon-sun.svg" alt="icone de sol e lua" width="30px"></img></div>
                 <footer className="footer">
-                    <p>© Lilian Carvalho 2024. Todos os direitos reservados.</p>
+                    <p>© athul kr@2024.my persanal portifolio.</p>
                     <div className="icons-footer">
-                    <a href="https://www.linkedin.com/in/lilian-carvalho25/" target="_blank" rel="noreferrer"><img src="icon-linkedin.svg" width="25px"></img> - </a>
-                    <a href="https://github.com/Lilian-Carvalho25" target="_blank" rel="noreferrer"><img src="icon-github.svg" width="25px"></img> - </a>
-                    <a href="mailto:liliancarvalho.developer@gmail.com" target="_blank" rel="noreferrer"><img src="icon-emaill.svg" width="25px"></img></a>
+                    <a href="" target="_blank" rel="noreferrer"><img src="icon-linkedin.svg" width="25px"></img> - </a>
+                    <a href="" target="_blank" rel="noreferrer"><img src="icon-github.svg" width="25px"></img> - </a>
+                    <a href="" target="_blank" rel="noreferrer"><img src="icon-emaill.svg" width="25px"></img></a>
                     </div>
                 </footer>
         

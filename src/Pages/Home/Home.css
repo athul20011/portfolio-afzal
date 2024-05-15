@@ -80,10 +80,10 @@ header {
     object-fit: contain;
 }
 
-.home-img img {
+/* .home-img img {
     animation: imgg 2s ease-in-out infinite;
     animation-delay: 2s;
-}
+} */
 
 @keyframes imgg {
     0% {
