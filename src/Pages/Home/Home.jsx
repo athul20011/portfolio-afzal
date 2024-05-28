@@ -45,9 +45,10 @@ const Home = () => {
             <div>
                 <ScrollRevealComponent />
                 <header style={{ background: theme.NavBackground, color: theme.text }}>
-                    <a href="#" className="logo" style={{ color: theme.text }}>Portfólio<span></span></a>
+                    <img src="https://miacis-media.co.uk/images/text3.png" width={'20%'} alt="" />
+                    {/* <a href="#" className="logo" style={{ color: theme.text }}>Portfolio<span></span></a> */}
                     <ul className={`navbar ${menuOpen ? 'open' : ''}`} style={{ background: theme.NavBackground, color: theme.text }}>
-                        <li><a href="#" className="active">Home</a></li>
+                        <li><a href="#" className="">Home</a></li>
                         <li><a href="#about-me" style={{ color: theme.text }}>About</a></li>
                         <li><a href="#skills" style={{ color: theme.text }}>Skills</a></li>
                         <li><a href="#timeline" style={{ color: theme.text }}>Education</a></li>
@@ -64,29 +65,29 @@ const Home = () => {
                     <section className="home">
                         <div className="home-text">
                             <span>M E A R N  STACK DEVELOPER</span>
-                            <h1>ATHUL KR</h1>
-                            <p style={{ color: theme.text }}>Coding is the art of turning ideas into interactive experiences; full-stack developers are the artists </p>
+                            <h1>AFSAL </h1>
+                            <p style={{ color: theme.text }}>Programming isn’t about what you know; it’s about what you can figure out </p>
                             <div className="main-bnt">
-                                <a href="ATHUL1res.pdf" className="bnt" download>Download CV</a>
+                                <a href="" className="bnt bnt-d  " download>Download CV</a>
                                 <a href="#portfolio" className="bnt two">Education</a>
                             </div>
                         </div>
                         <div className="share">
                             <div className="social" id="about-me">
-                                <a href="https://www.linkedin.com/in/athul-kr-324426277?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BnQS9lTwoSYWwr%2B0nM%2BrtiA%3D%3D " target="_blank" rel="noreferrer"><img src="icon-linkedin.svg" alt="" width="30px"></img></a>
-                                <a href="https://github.com/athul20011 " target="_blank" rel="noreferrer"><img src="icon-github.svg" alt="" width="30px"></img></a>
+                                <a href=" " target="_blank" rel="noreferrer"><img src="https://cdn.freebiesupply.com/logos/large/2x/linkedin-icon-logo-png-transparent.png" alt="" width="30px"></img></a>
+                                <a href=" " target="_blank" rel="noreferrer"><img src="https://banhawy.github.io/cv/img/github-logo.png" alt="" width="30px"></img></a>
                                 <a href=" " target="_blank" rel="noreferrer"><img src="icon-linktree.png" alt="" width="31px"></img></a>
                             </div>
                         </div>
                     </section>
                     <div className="home-img">
-                        <img src="port1.png" alt=""></img>
+                        <img src="afzal4.png" alt=""></img>
                     </div>
                 </div>
                 <section className="container-about-me">
-                    <img src="port3.png" alt="" className="about-mee"></img>
+                    <img src="https://cdni.iconscout.com/illustration/free/thumb/developer-2080968-1750498.png" alt="" className="about-mee"></img>
                     <article className="about-me">
-                        <h4>About Me</h4>
+                        <h4 className="text-light">About Me</h4>
                         <h2>I Am MEARN Stack developer</h2>
                         <p id="skills">As a beginner in the field of Information
 Technology, Istrive to associate myself
@@ -103,14 +104,14 @@ organization.</p>
                     <div className="skills">
                         <article className="box-skills" style={{ background: theme.skillsBackground }}>
                             <div className="description">
-                                <img src="icon-front.svg" alt=""></img>
+                                <img src="https://icon-library.com/images/frontend-icon/frontend-icon-1.jpg" alt=""></img>
                                 <h3>Front-end</h3>
                                 <p>HTML, CSS, Bootstrap, Javascript, Reactjs, Angular.</p>
                             </div>
                         </article>
                         <article className="box-skills" style={{ background: theme.skillsBackground }}>
                             <div className="description">
-                                <img src="icon-back-end.svg" alt=""></img>
+                                <img src="https://cdn-icons-png.flaticon.com/512/9912/9912234.png" alt=""></img>
                                 <h3>Back-end</h3>
                                 <p>Nodejs, Expressjs, MongoDB</p>
                             </div>
@@ -136,7 +137,7 @@ organization.</p>
                                     <div className="timeline-information">
                                         <span>2018</span>
                                         <h3 style={{ color: theme.text }}>SSLC</h3>
-                                        <p style={{ color: theme.text }}>MNKM HSS Chittlamcherry, Palakkad, kerala</p>
+                                        <p style={{ color: theme.text }}>St pauls central school, Palakkad, kerala</p>
                                     </div>
                                 </div>
                                 <div className="experiences">
@@ -145,7 +146,7 @@ organization.</p>
                                         <span>2018-2020</span>
                                         <h3 style={{ color: theme.text }}>Pluse Two</h3>
                                         <h4>Computer science</h4>
-                                        <p style={{ color: theme.text }}>MNKM HSS Chittlamcherry, Palakkad, Kerala</p>
+                                        <p style={{ color: theme.text }}>KHSS kannadi, Palakkad, Kerala</p>
                                     </div>
                                 </div>
                                 <div className="experiences">
@@ -153,7 +154,7 @@ organization.</p>
                                     <div className="timeline-information">
                                         <span>2020-2023</span>
                                         <h3 style={{ color: theme.text }}>Graduation</h3>
-                                        <h4>Bsc Computer Science</h4>
+                                        <h4 className="text-light">Bsc Computer Science</h4>
                                         <p style={{ color: theme.text }}>Thunchezhuthan college, Elevanchery, Palakkad, Kerala</p>
                                     </div>
                                 </div>
@@ -173,11 +174,11 @@ organization.</p>
                     <h2>projects</h2>
                     <div className="portfolio">
 
-                        <ProjectBox ImgProject={"rest.jpg"} NameProject={"Restaurent"} DescriptionProject={"A Nutriacess é uma plataforma desenvolvida com o objetivo de democratizar o acesso a consultas nutricionais de forma acessível."} SkillsProject2={"Html"} SkillsProject3={"css"} SkillsProject4={"Bootstrap"} SiteProject={""} GithubProject={""} GithubProject2={""} />
+                        <ProjectBox ImgProject={"discal.jpg"} NameProject={"Discound Calculator"} DescriptionProject={"A Nutriacess é uma plataforma desenvolvida com o objetivo de democratizar o acesso a consultas nutricionais de forma acessível."} SkillsProject2={"Html"} SkillsProject3={"css"} SkillsProject4={"Bootstrap"} SiteProject={""} GithubProject={""} GithubProject2={""} />
 
-                        <ProjectBox ImgProject={"trv.jpg"} NameProject={"Travel website"} DescriptionProject={"Brasa divina é um exemplo de site para uma pizzaria real. Nele, o usuário tem a opção de selecionar opções prontas, ou montar sua própria pizza."} SkillsProject1={"Html"} SkillsProject2={"CSS"} SkillsProject3={"Bootstrap"} SkillsProject4={"javascript"}  SiteProject={""} GithubProject={""} GithubProject2={null}  />
+                        <ProjectBox ImgProject={"con-app.jpg"} NameProject={"Contact App"} DescriptionProject={"Brasa divina é um exemplo de site para uma pizzaria real. Nele, o usuário tem a opção de selecionar opções prontas, ou montar sua própria pizza."} SkillsProject1={"Html"} SkillsProject2={"CSS"} SkillsProject3={"Bootstrap"} SkillsProject4={"javascript"}  SiteProject={""} GithubProject={""} GithubProject2={null}  />
 
-                        <ProjectBox ImgProject={"netflix.png"} NameProject={"netflix clone"} DescriptionProject={"A AfroGlow visa fortalecer a autoestima de crianças com cabelos afro, proporcionando autoestima e um forte sentimento de pertencimento."} SkillsProject1={"html"} SkillsProject2={"CSS"} SkillsProject3={"Bootstrap"} SkillsProject4={"reactjs"} SiteProject={""} GithubProject={""} GithubProject2={""}  />
+                        <ProjectBox ImgProject={"bmi-java.jpg"} NameProject={"BMI calculator"} DescriptionProject={"A AfroGlow visa fortalecer a autoestima de crianças com cabelos afro, proporcionando autoestima e um forte sentimento de pertencimento."} SkillsProject1={"html"} SkillsProject2={"CSS"} SkillsProject3={"Bootstrap"} SkillsProject4={"reactjs"} SiteProject={""} GithubProject={""} GithubProject2={""}  />
                     </div>
                     <article className="all-projects">
                         <Link to="/all-projects" className="bnt-all">All Projects <img src="arrow-right.svg" alt="" width="10px"></img></Link>
@@ -197,13 +198,13 @@ organization.</p>
                             </form>
                         </article>
                         <article>
-                        <img src="https://www.freeiconspng.com/uploads/contact-icon-png-0.png" alt="lilian versão avatar"></img>
+                        <img src=" https://th.bing.com/th/id/R.2536c1c47dda4089690f8eaf854b2a84?rik=xVKvrv9Ai3MR5w&riu=http%3a%2f%2fimages.clipartpanda.com%2fcontact-clipart-contact-me-no-data-hi.png&ehk=iSSlIn1nCEn27r4dPgtZDyDcaM3tt6ugfkSD7RjL%2fh8%3d&risl=&pid=ImgRaw&r=0"></img>
                         </article>
                     </div>
                 </section>
                 <div className="fixed-icon" onClick={toggleTheme} style={{ background: theme.NavBackground }}><img src="icon-moon-sun.svg" alt="icone de sol e lua" width="30px"></img></div>
                 <footer className="footer">
-                    <p>© athul kr@2024.my persanal portifolio.</p>
+                    <p>© afsal@2024.my persanal portifolio.</p>
                     <div className="icons-footer">
                     <a href="" target="_blank" rel="noreferrer"><img src="icon-linkedin.svg" width="25px"></img> - </a>
                     <a href="" target="_blank" rel="noreferrer"><img src="icon-github.svg" width="25px"></img> - </a>

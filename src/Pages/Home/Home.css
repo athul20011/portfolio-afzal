@@ -13,8 +13,9 @@ header {
 }
 
 .logo {
-    color: var(--text-color);
-    font-size: 41px;
+    color: white;
+    border: 1px  solid white;
+    font-size: 35px;
     font-weight: 600;
 }
 
@@ -35,15 +36,16 @@ header {
 }
 
 .navbar a:hover {
-    color: var(--main-color);
+    color: red;
 }
 .navbar a.active {
-    color: var(--main-color);
+    color: red;
 }
 
 .menu-btn {
-    background: rgb(63,48,71);
-    background: linear-gradient(135deg, rgba(63,48,71,1) 48%, rgba(81,113,165,1) 76%);
+    background: rgb(7, 7, 7);
+    color: black;
+    background: linear-gradient(135deg, rgb(9, 9, 9) 48%, rgb(252, 250, 250) 76%);
     box-shadow: 0px 20px 40px #00000070;
     padding: 7px 10px;
     border-radius: 100px;
@@ -52,6 +54,7 @@ header {
     cursor: pointer;
     z-index: 6;
 }
+
 
 #menu-icon {
     width: 28px;
@@ -70,8 +73,8 @@ header {
 }
 
 .home-img {
-    width: 480px;
-    height: 480px;
+    /* margin-top: -200px; */
+    width: 350px;
 }
 
 .home-img img {
@@ -99,9 +102,9 @@ header {
 
 .home-text span {
     padding: 5px 25px;
-    background: rgb(63,48,71);
-    background: linear-gradient(135deg, rgba(63,48,71,1) 48%, rgba(81,113,165,1) 76%);
-    box-shadow: var(--main-color) 0px 1px 5px;
+    background: rgb(15, 15, 15);
+    background: linear-gradient(135deg, rgb(4, 4, 4) 48%, rgb(188, 206, 235) 76%);
+    box-shadow: var('white') 0px 1px 5px;
     border-radius: 100px;
     color: var(--text-color);
     font-weight: 700;
@@ -126,9 +129,9 @@ header {
 .bnt {
     display: inline-block;
     padding: 14px 34px;
-    background: var(--main-color);
-    color: var(--text-color);
-    border: 2px solid var(--main-color);
+    background: var('white');
+    color: rgb(241, 244, 68);
+    border: 2px solid wheat;
     font-size: 16px;
     font-weight: 600;
     border-radius: 8px;
@@ -137,7 +140,7 @@ header {
 .bnt:hover {
     transform: translateY(-5px);
     background: transparent;
-    color: var(--main-color);
+    color: red;
 }
 .two {
     background: #141414;
@@ -158,7 +161,7 @@ header {
 
 .share p {
     font-size: 17px;
-    color: var(--text-color);
+    color: white;
     margin-right: 25px;
 }
 
@@ -188,7 +191,6 @@ header {
 .about-me h4{
     font-size: 1rem;
     margin-bottom: 0.7rem;
-    color: var(--main-color);
     font-weight: 700;
 }
 
@@ -230,7 +232,7 @@ header {
 }
 
 .box-skills:hover {
-    border-bottom: 6px solid #5171A5;
+    border-bottom: 6px solid #e7eb95;
     transition: 0.2s;
 }
 
@@ -247,7 +249,7 @@ header {
     width: 280px;
 }
 
-/* LINHA DO TEMPO */
+/* education */
 
 .container-timeline .box-timeline {
     display: -webkit-box;
@@ -276,7 +278,7 @@ header {
     -ms-flex: 1 1 40rem;
     flex: 1 1 40rem;
     padding: 0 3rem 2rem 3rem;
-    border-left: 0.2rem solid var(--main-color);
+    border-left: 0.2rem solid yellow;
     margin-left: 18rem;
 }
 
@@ -290,11 +292,11 @@ header {
     line-height: 5rem;
     text-align: center;
     font-size: 2.3rem;
-    background:var(--main-color);
+    background:white;
 }
 
 .experiences .icons-timeline:hover {
-    background: #9BC995;
+    background: #fa9586;
     font-weight: 700;
     transition: 0.4s;
     box-shadow: var(--main-color) 0px 1px 15px
@@ -308,15 +310,14 @@ header {
 
 .experiences span{
     background: #212121;
-    color: var(--text-color);
+    color:white;
     padding: 0.5rem 1.5rem;
     font-size: 1rem;
     border-radius: 50rem;
 }
 
 .experiences span:hover {
-    background: #9BC995;
-    color: var(--main-color);
+    background: #e5f48d;
     font-weight: 700;
     transition: 1s;
     box-shadow: var(--main-color) 0px 1px 15px
@@ -324,12 +325,11 @@ header {
 
 .experiences h3{
     font-size: 2rem;
-    color: var(--text-color);
+    color: white;
     padding: 1rem 0;
 }
 
 .experiences p{
-    color: var(--text-color);
     font-size: var(--p-font);
     line-height: 2rem;
     max-width: 900px;
@@ -354,6 +354,10 @@ header {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     text-align: center;
+}
+.bnt-all{
+    background-color: white;
+    color: black;
 }
 
 /* CONTATO */
@@ -383,9 +387,8 @@ header {
     border-radius: 10px;
     outline: none;
     border: none;
-    border: var(--main-color) 2px solid;
+    border: black 2px solid;
     background-color: #f2f2f2;
-    box-shadow: var(--main-color) 1px 1px 10px;
 }
 .forms-contact textarea {
     width: 520px;
@@ -393,19 +396,18 @@ header {
     border-radius: 10px;
     outline: none;
     border: none;
-    border: var(--main-color) 2px solid;
+    border:black 2px solid;
     background-color: #f2f2f2;
-    box-shadow: var(--main-color) 1px 1px 10px;
 }
 .forms-contact button {
     width: 520px;
     height: 3rem;
-    background-color: var(--main-color);
-    color: var(--p-font);
+    color: black;
     font-weight: 500;
     font-size: 1rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
+    border:black 2px solid;
     cursor: pointer;
 }
 
